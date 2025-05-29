@@ -12,6 +12,7 @@ public class Validator {
             return true;
         }
 
+        // ✅ This is needed
         throw new ExceptionHandler("Unsupported data type for validation.");
     }
 }
